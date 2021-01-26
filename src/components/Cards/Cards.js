@@ -87,7 +87,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
                 start={0}
                 end={deaths.value}
                 duration={5}
-                useEasing="true"
+                useEasing="boolean"
                 useGrouping="true"
                 separator=","
               />
